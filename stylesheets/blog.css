@@ -1,0 +1,42 @@
+.header {
+  	margin: auto;
+  	height: 5%;
+  	width: 100%;
+  	top: 0em;
+  	position: relative;
+  	border-bottom: 5px inset #13BFBA;
+
+ }
+.mini-header {
+	border-bottom: 5px inset #13BFBA;
+	position: static;
+	height: 5%;
+	width: 100%;
+}
+ .content {
+ 	width: 85%;
+	height: auto;
+	margin: auto;
+	padding: 20px 0px 0px 20px;
+	-webkit-text-fill-color: #733202;
+   	-webkit-text-stroke-width: .5px;
+   	-webkit-text-stroke-color: black;
+   	border-left: 5px inset white;
+   	float: right;
+   	
+ }
+ .sidebar {
+ 	width: 10%;
+ 	padding-top: 20px;
+ 	float: left;
+ 	padding-left: -2.5%;
+ 	display: inline-block;
+ }
+
+li {
+	margin-top: 5%;
+}
+.footer {
+	width: 100%;
+	margin: auto;
+}
