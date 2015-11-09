@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Blog Post #1</title>
+
+		<link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+		<link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
+	</head>
+		<body>
+			<div class="header">
+				<h1><a href="Link_homepage">Kevin's Brain Pickin', Finger Lickin' Good Blog</a>
+				</h1>
+			</div>
+				<p></p>
+			<div class="mini-header">
+				<h2>The Confusing Conglomorate of Classes</h2>
+				<h3>11/8/2015</h3>
+			</div>
+			<div class="content">
+				<p><img src="http://www.lily.fi/sites/lily/files/user/5557/2013/05/adorable-childhood-cute-mouse-photography-favim.com-251684.jpg" align="right" width="220" height="220">
+				<p>
+					Ruby is an object based language. It's something you hear from day one of learning this language, and it's absolutely true. What does it mean though? Well that's a lot more complicated than I thought at the beginnning. Grouping code together that is all working toward the same goal is a key in maintaining organization throughout your code. One way to do that is to create objects called Class.
+				</P>
+				<p>
+					Class is a subclass of Object, which is what everything in Ruby is made up of. Classes hold groups of methods that deal with similar material. Think of a String. String is a class in Ruby, and you may have called methods like .length or .downcase. These are methods that are stored within the class String that you may call on any instance of String in your code. In Ruby you have the ability to create your own Classes to suit whatever purpose you have. Example we can make a class called Mouse. 
+				</p>
+				<p>
+					To create a class, we must have always have something that initializes said class, and do whatever we want to everytime a new class is called. For Mouse, we don't need much other than to say create a mouse. Such as:
+				</p>
+				<p>
+					class Mouse <br>
+
+  					    def initialize<br>
+     						@mouse = "Squeak Squeak"<br>
+  						end
+  				</p>
+  				<p>
+  					Now, before I go any further I have to explain a little about class variables. That little @ sign before mouse turns it into a class variable. All that means is that it is now available to any method within our class. This is different from local variables that can only be accessed from within those methods. This allows us to break down our code while using the same variables, instead of having to have everything in one gigantic method. 
+  				</p>
+  				<p>
+  					When we call our Mouse class, i.e. new_mouse = Mouse.new, this call on our initialize method automatically, so we will now have a mouse variable that is assigned a value of "Squeak Squeak". I'm not too well-versed on mouse habits or much of what else they do so I can't say how accurate this is, but in my head it's the sound a mouse makes. So when we call a new instance of our class, we will have this variable available to all of our methods within the Mouse class. 
+  				</p>
+  				<p>
+  					We can now add other methods within this same class that will be available to us to use whenever we call a new instance of this class. As stated before, having limited mouse knowledge, our next method we can call cheese. 
+  				</p>
+  				<p>
+  					def cheese<br>
+    					 puts "#{@mouse}, this is some tasty cheese!"<br>
+   					end
+   				</p>
+   				<p>
+					I know that's my reaction every time I eat cheese. Now, with our new mouse instance already available, we can call new_mouse.cheese, and that will let everyone know how much our little guy is enjoying his cheese! You can have these methods do whatever you'd like, and call them within the instance of class you have initialized. 
+				</p>
+				<p>
+					Classes are a great way to organize your code, and to keep complicated items from becoming too sloppy or unreadable (is that a word?). You can play around with your mouse and see if there's anything you want to add. Maybe you know more about mice than I do. It's good to be a little confused, just know that the more practice and research you do the clearer it will become.
+				</p>
+			</div>
+			<div class="sidebar">
+				<ul>
+					<li><a href="fakesite.biz">Previous Entry w/ Date</a></li>
+					<li><a href="fakesite.biz">Previous Entry w/ Date</a></li>
+					<li><a href="fakesite.biz">Previous Entry w/ Date</a></li>
+				</ul>
+			</div>
+			<table class="footer">
+				<tr>
+				<th>
+					<li><a href="facebook.com">Facebook</a></li>
+				</th>
+				<th>
+					<li><a href="facebook.com">Twitter</a></li>
+				</th>
+				<th>
+					<li><a href="facebook.com">GitHub</a></li>
+				</th>
+				<th>
+					<li><a href="mailto:myemail@email.com">Email me</a></li>
+				</tr>
+			</table>
+		</body>
+</html>
