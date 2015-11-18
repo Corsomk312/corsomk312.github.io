@@ -15,6 +15,7 @@ h1 {
   	width: 100%;
   	top: 0px;
   	position: fixed;
+  	text-align: center;
   	
 }
 .navbar {
@@ -78,3 +79,28 @@ article {
 .about_me {
 	padding-top: 12em;
 }
+
+.proj-header {
+  	margin: auto;
+  	height: 50px;
+  	width: 100%;
+  	top: 0px;
+  	position: fixed;
+  	text-align: center;
+  	padding: 1em;
+  	padding-bottom: 5em;
+  	-webkit-text-fill-color: #87CEEB;
+   	-webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: black;
+   	background-color: #20B2AA;
+  }
+
+  .projects{
+	width: 100%;
+	height: auto;
+	margin-top: 10em;
+	padding: 2em;
+	-webkit-text-fill-color: #733202;
+   	-webkit-text-stroke-width: .5px;
+   	-webkit-text-stroke-color: black
+  }
