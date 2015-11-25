@@ -69,6 +69,7 @@ a {
 
 article {
 	text-align: center;
+
 }
 
 .contact_text {
@@ -103,4 +104,8 @@ article {
 	-webkit-text-fill-color: #733202;
    	-webkit-text-stroke-width: .5px;
    	-webkit-text-stroke-color: black
+  }
+
+  .cheatsheets{
+  	text-align: center;
   }
